@@ -69,7 +69,7 @@
 
 ### The Authors
 <p>
-  <img alt="Salomo Hendrian Sudjono" title="Salomo Hendrian Sudjono" src="https://custom-icon-badges.demolab.com/badge/-Salomo%20Hendrian%20Sudjono-red?style=for-the-badge&logo=person-fill&logoColor=white"/>
-  <img alt="Caroline Angelina Sunarya" title="Caroline Angelina Sunarya" src="https://custom-icon-badges.demolab.com/badge/-Caroline%20Angelina%20Sunarya-red?style=for-the-badge&logo=person-fill&logoColor=white"/>
+  <img alt="Salomo Hendrian Sudjono" title="Salomo Hendrian Sudjono" src="https://custom-icon-badges.demolab.com/badge/-Salomo%20Hendrian%20Sudjono-red?style=for-the-badge&logo=person-fill&logoColor=283E9CFF"/>
+  <img alt="Caroline Angelina Sunarya" title="Caroline Angelina Sunarya" src="https://custom-icon-badges.demolab.com/badge/-Caroline%20Angelina%20Sunarya-red?style=for-the-badge&logo=person-fill&logoColor=283E9CFF"/>
 </p>
 
