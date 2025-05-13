@@ -67,19 +67,9 @@
 
 ---
 
-### Libraries
-
-<p align="left">
-<img alt="Selenium" title="Selenium" src="https://img.shields.io/badge/Selenium-43B02A?logo=selenium&logoColor=fff"/>
-<img alt="Pandas" title="Pandas" src="https://img.shields.io/badge/Pandas-150458?logo=pandas&logoColor=fff"/>
-<img alt="FastApi" title="FastApi" src="https://img.shields.io/badge/FastAPI-009485.svg?logo=fastapi&logoColor=white"/>
-<img alt="HuggingFace" title="HuggingFace" src="https://img.shields.io/badge/Hugging%20Face-FFD21E?logo=huggingface&logoColor=000"/>
-</p>
-
-### Cloud Hosting
-
-<p align="left">
-<img alt="Vercel" title="Vercel" src="https://img.shields.io/badge/Vercel-%23000000.svg?logo=vercel&logoColor=white"/>
-<img alt="Cloudflare" title="Cloudflare" src="https://img.shields.io/badge/Cloudflare-F38020?logo=Cloudflare&logoColor=white"/>
+### The Authors
+<p>
+  <img alt="Salomo Hendrian Sudjono" title="Salomo Hendrian Sudjono" src="https://custom-icon-badges.demolab.com/badge/-Salomo%20Hendrian%20Sudjono-red?style=for-the-badge&logo=person-fill&logoColor=white"/>
+  <img alt="Caroline Angelina Sunarya" title="Caroline Angelina Sunarya" src="https://custom-icon-badges.demolab.com/badge/-Caroline%20Angelina%20Sunarya-red?style=for-the-badge&logo=person-fill&logoColor=white"/>
 </p>
 
