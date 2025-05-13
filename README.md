@@ -18,18 +18,6 @@
 
 ### Program Tasks
 
-```mermaid
-    A[Scraping (Selenium)] --> B[Cleaning (Regex)]
-    B --> C[Summarization (LLM)]
-    C --> D[Translate to English]
-    D --> E[Sentiment Classification (BERT)]
-    E --> F[Translate to Bahasa Indonesia]
-    F --> G[Named Entity Recognition (NER)]
-    G --> H[Mapping Customer ID (Fuzzy Matching)]
-    H --> I[Save Result (Excel)]
-    I --> J[Note: Steps with * must be self-hosted (Vercel)]
-```
-
 1. **Scraping** <br> *Scrape business news topic from google news with python selenium.*
 2. **Cleaning** <br> *Clean scraped data with regular expression (regex) from unnecessary pattern, such as advertisement, multiple whitespace, etc.*
 3. **\*Summarization** <br> *Summarize news content into 3 sentences using Large Language Model (LLM).*
@@ -42,6 +30,15 @@
 
 *Note* <br>
 (*): Script needs to be self-hosted (Vercel) because provider-hosted api (openai and google translate) is not accessible in internal environment. 
+
+---
+
+### Project Files
+| `CleanData.py` | TEXTTT |
+| :--- | :--- |
+| __Frameworks and Libraries__ | TEXT |
+| __Cloud and Databases__ | TETXT |
+| __Code Editor__ | TEXT |
 
 ---
 
