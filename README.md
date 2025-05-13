@@ -26,16 +26,16 @@ flowchart TB
     classDef final fill:#d4edda,stroke:#28a745,stroke-width:1px;
 
     %% Nodes
-    A[Scraping<br><sub><i>Scrape news using Selenium</i></sub>]:::step
-    B[Cleaning<br><sub><i>Clean with regex</i></sub>]:::step
-    C[Summarization<br><sub><i>LLM summary (3 sentences)</i></sub>]:::hosted
-    D[Translate to English<br><sub><i>LLM/Google Translate</i></sub>]:::hosted
-    E[Sentiment Classification<br><sub><i>Fine-tuned BERT</i></sub>]:::step
-    F[Translate to Bahasa<br><sub><i>Translate back</i></sub>]:::hosted
-    G[Named Entity Recognition<br><sub><i>Extract subject</i></sub>]:::step
-    H[Mapping Customer ID<br><sub><i>Fuzzy match with customer DB</i></sub>]:::step
-    I[Save Result<br><sub><i>Export to Excel</i></sub>]:::final
-    J[Note<br><sub><i>(*) Self-hosted on Vercel due to internal restrictions</i></sub>]:::hosted
+    A[Scraping\n(Selenium)]:::step
+    B[Cleaning\n(Regex)]:::step
+    C[Summarization\n(LLM)]:::hosted
+    D[Translate to English\n(OpenAI / Google)]:::hosted
+    E[Sentiment Classification\n(Fine-tuned BERT)]:::step
+    F[Translate to Bahasa\n(Google)]:::hosted
+    G[NER\n(Extract Subject)]:::step
+    H[Map to Customer ID\n(Fuzzy Match)]:::step
+    I[Save Result\n(Excel)]:::final
+    J[Note:\n(*) Self-hosted on Vercel]:::hosted
 
     %% Edges
     A --> B --> C --> D --> E --> F --> G --> H --> I --> J
