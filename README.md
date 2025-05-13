@@ -35,7 +35,7 @@
 
 ### Libraries
 
-<p align="center">
+<p align="left">
 <img alt="Selenium" title="Selenium" src="https://img.shields.io/badge/Selenium-43B02A?logo=selenium&logoColor=fff"/>
 <img alt="Pandas" title="Pandas" src="https://img.shields.io/badge/Pandas-150458?logo=pandas&logoColor=fff"/>
 <img alt="FastApi" title="FastApi" src="https://img.shields.io/badge/FastAPI-009485.svg?logo=fastapi&logoColor=white"/>
@@ -44,7 +44,7 @@
 
 ### Cloud Hosting
 
-<p align="center">
+<p align="left">
 <img alt="Vercel" title="Vercel" src="https://img.shields.io/badge/Vercel-%23000000.svg?logo=vercel&logoColor=white"/>
 <img alt="Cloudflare" title="Cloudflare" src="https://img.shields.io/badge/Cloudflare-F38020?logo=Cloudflare&logoColor=white"/>
 </p>
