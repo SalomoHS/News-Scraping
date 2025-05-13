@@ -20,25 +20,15 @@
 
 ```mermaid
 flowchart TB
-    %% Styles
-    classDef step fill:#f9f9f9,stroke:#333,stroke-width:1px,font-size:12px;
-    classDef hosted fill:#fff3cd,stroke:#ffcc00,stroke-width:1px;
-    classDef final fill:#d4edda,stroke:#28a745,stroke-width:1px;
-
-    %% Nodes
-    A[Scraping\n(Selenium)]:::step
-    B[Cleaning\n(Regex)]:::step
-    C[Summarization\n(LLM)]:::hosted
-    D[Translate to English\n(OpenAI / Google)]:::hosted
-    E[Sentiment Classification\n(Fine-tuned BERT)]:::step
-    F[Translate to Bahasa\n(Google)]:::hosted
-    G[NER\n(Extract Subject)]:::step
-    H[Map to Customer ID\n(Fuzzy Match)]:::step
-    I[Save Result\n(Excel)]:::final
-    J[Note:\n(*) Self-hosted on Vercel]:::hosted
-
-    %% Edges
-    A --> B --> C --> D --> E --> F --> G --> H --> I --> J
+    A[Scraping (Selenium)] --> B[Cleaning (Regex)]
+    B --> C[Summarization (LLM)]
+    C --> D[Translate to English]
+    D --> E[Sentiment Classification (BERT)]
+    E --> F[Translate to Bahasa Indonesia]
+    F --> G[Named Entity Recognition (NER)]
+    G --> H[Mapping Customer ID (Fuzzy Matching)]
+    H --> I[Save Result (Excel)]
+    I --> J[Note: Steps with * must be self-hosted (Vercel)]
 ```
 
 1. **Scraping** <br> *Scrape business news topic from google news with python selenium.*
