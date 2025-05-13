@@ -18,8 +18,13 @@
 
 ### Program Tasks
 
-<img src="https://app.eraser.io/workspace/X3t9xNhvWbZmdHeXF5YQ/preview?elements=FbtfBIQRS26tWwA-gwonXw&type=embed" />
-
+```mermaid
+graph TD;
+    A-->B;
+    A-->C;
+    B-->D;
+    C-->D;
+```
 1. **Scraping** <br> *Scrape business news topic from google news with python selenium.*
 2. **Cleaning** <br> *Clean scraped data with regular expression (regex) from unnecessary pattern, such as advertisement, multiple whitespace, etc.*
 3. **\*Summarization** <br> *Summarize news content into 3 sentences using Large Language Model (LLM).*
