@@ -19,17 +19,26 @@
 ### Program Tasks
 
 ```mermaid
-flowchart TD
-    A[Scraping] -->|Scrape business news with Selenium| B[Cleaning]
-    B -->|Clean data with regex| C[Summarization]
-    C -->|Summarize news with LLM| D[Translate to English]
-    D -->|Translate summarized news to English| E[Sentiment Classification]
-    E -->|Classify sentiment with fine-tuned BERT| F[Translate to Bahasa Indonesia]
-    F -->|Translate back to Bahasa| G[Named Entity Recognition]
-    G -->|Extract subject using NER| H[Mapping Customer Id]
-    H -->|Map subject to customer id with fuzzy matching| I[Save Result]
-    I -->|Save to Excel| J[Note]
-    J["(*) Self-host script on Vercel due to internal access restrictions"]
+flowchart TB
+    %% Styles
+    classDef step fill:#f9f9f9,stroke:#333,stroke-width:1px,font-size:12px;
+    classDef hosted fill:#fff3cd,stroke:#ffcc00,stroke-width:1px;
+    classDef final fill:#d4edda,stroke:#28a745,stroke-width:1px;
+
+    %% Nodes
+    A[Scraping<br><sub><i>Scrape news using Selenium</i></sub>]:::step
+    B[Cleaning<br><sub><i>Clean with regex</i></sub>]:::step
+    C[Summarization<br><sub><i>LLM summary (3 sentences)</i></sub>]:::hosted
+    D[Translate to English<br><sub><i>LLM/Google Translate</i></sub>]:::hosted
+    E[Sentiment Classification<br><sub><i>Fine-tuned BERT</i></sub>]:::step
+    F[Translate to Bahasa<br><sub><i>Translate back</i></sub>]:::hosted
+    G[Named Entity Recognition<br><sub><i>Extract subject</i></sub>]:::step
+    H[Mapping Customer ID<br><sub><i>Fuzzy match with customer DB</i></sub>]:::step
+    I[Save Result<br><sub><i>Export to Excel</i></sub>]:::final
+    J[Note<br><sub><i>(*) Self-hosted on Vercel due to internal restrictions</i></sub>]:::hosted
+
+    %% Edges
+    A --> B --> C --> D --> E --> F --> G --> H --> I --> J
 ```
 
 1. **Scraping** <br> *Scrape business news topic from google news with python selenium.*
