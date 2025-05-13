@@ -3,6 +3,10 @@
 </p>
 
 <p align="center">
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&pause=1000&width=435&lines=End-to-end+news+scraping" alt="Typing SVG" />
+</p>
+
+<p align="center">
   The need for business news data needed as additional information to analyze the financial condition of customers in the bank sector
 </p>
 
