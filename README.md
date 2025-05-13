@@ -19,7 +19,6 @@
 ### Program Tasks
 
 ```mermaid
-flowchart TB
     A[Scraping (Selenium)] --> B[Cleaning (Regex)]
     B --> C[Summarization (LLM)]
     C --> D[Translate to English]
