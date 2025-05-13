@@ -30,8 +30,8 @@
 
 ### Program Tasks
 
-1. **Scraping**: *Scrape business news topic from google news with python selenium.*
-2. **Cleaning**: *Clean scraped data with regular expression (regex) from unnecessary pattern, such as advertisement, multiple whitespace, etc.*
+1. **Scraping** -- *Scrape business news topic from google news with python selenium.*
+2. **Cleaning** -- *Clean scraped data with regular expression (regex) from unnecessary pattern, such as advertisement, multiple whitespace, etc.*
 3. **\*Translate to English**: *Translate summarized news to english.*
 4. **\*Summarization**: *Summarize news content into 3 sentences using Large Language Model (LLM).*
 5. **\*Translate to Bahasa Indonesia**: *Translate back news to Bahasa Indonesia.*
