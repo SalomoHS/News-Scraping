@@ -68,6 +68,14 @@
 
 ---
 
+### Project Files
+| File Name              | Description                      |
+|:-----------------------|:---------------------------------|
+| `Summarizer.py`         | API to handle summarization         |
+| `Translator.py`         | API to handle translation         |
+
+---
+
 ### The Authors
 <p>
   <img alt="Salomo Hendrian Sudjono" title="Salomo Hendrian Sudjono" src="https://custom-icon-badges.demolab.com/badge/-Salomo%20Hendrian%20Sudjono-blue?style=for-the-badge&logo=person-fill&logoColor=white"/>
