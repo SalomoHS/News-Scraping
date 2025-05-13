@@ -19,12 +19,19 @@
 ### Program Tasks
 
 ```mermaid
-graph TD;
-    A-->B;
-    A-->C;
-    B-->D;
-    C-->D;
+flowchart TD
+    A[Scraping] -->|Scrape business news with Selenium| B[Cleaning]
+    B -->|Clean data with regex| C[Summarization]
+    C -->|Summarize news with LLM| D[Translate to English]
+    D -->|Translate summarized news to English| E[Sentiment Classification]
+    E -->|Classify sentiment with fine-tuned BERT| F[Translate to Bahasa Indonesia]
+    F -->|Translate back to Bahasa| G[Named Entity Recognition]
+    G -->|Extract subject using NER| H[Mapping Customer Id]
+    H -->|Map subject to customer id with fuzzy matching| I[Save Result]
+    I -->|Save to Excel| J[Note]
+    J["(*) Self-host script on Vercel due to internal access restrictions"]
 ```
+
 1. **Scraping** <br> *Scrape business news topic from google news with python selenium.*
 2. **Cleaning** <br> *Clean scraped data with regular expression (regex) from unnecessary pattern, such as advertisement, multiple whitespace, etc.*
 3. **\*Summarization** <br> *Summarize news content into 3 sentences using Large Language Model (LLM).*
