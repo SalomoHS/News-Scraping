@@ -49,6 +49,7 @@
 ### Project Files
 | File Name              | Description                      |
 |:-----------------------|:---------------------------------|
+| `requirements.txt`         | Python modules dependencies         |
 | `CleanData.py`         | Script to to basic clean raw data         |
 | `CloudFlare.py`        | Handles request llm hosted by Cloudflare for summarization |
 | `ContentTranslator.py` | Handles request to google translate to Translates content      |
