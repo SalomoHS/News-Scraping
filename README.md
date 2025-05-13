@@ -11,10 +11,6 @@
 </p>
 
 <p align="center">
-I build code by starting from the business problem. My process begins with understanding the core challenge, then brainstorming the best tools and approaches to solve it effectively. Whether it's automation, data pipelines, or AI solutions, I focus on creating code that delivers real business value.
-</p>
-
-<p align="center">
     <img alt="Python" title="Python" src="https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54"/>
 </p>
 
@@ -39,14 +35,17 @@ I build code by starting from the business problem. My process begins with under
 
 ### Libraries
 
+<p align="center">
 <img alt="Selenium" title="Selenium" src="https://img.shields.io/badge/Selenium-43B02A?logo=selenium&logoColor=fff"/>
 <img alt="Pandas" title="Pandas" src="https://img.shields.io/badge/Pandas-150458?logo=pandas&logoColor=fff"/>
 <img alt="FastApi" title="FastApi" src="https://img.shields.io/badge/FastAPI-009485.svg?logo=fastapi&logoColor=white"/>
 <img alt="HuggingFace" title="HuggingFace" src="https://img.shields.io/badge/Hugging%20Face-FFD21E?logo=huggingface&logoColor=000"/>
+</p>
 
 ### Cloud Hosting
 
+<p align="center">
 <img alt="Vercel" title="Vercel" src="https://img.shields.io/badge/Vercel-%23000000.svg?logo=vercel&logoColor=white"/>
 <img alt="Cloudflare" title="Cloudflare" src="https://img.shields.io/badge/Cloudflare-F38020?logo=Cloudflare&logoColor=white"/>
-
+</p>
 
