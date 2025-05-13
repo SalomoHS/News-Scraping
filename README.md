@@ -18,7 +18,7 @@
 
 ### Program Tasks
 
-<a href="https://app.eraser.io/workspace/X3t9xNhvWbZmdHeXF5YQ?elements=FbtfBIQRS26tWwA-gwonXw">View on Eraser<br /><img src="https://app.eraser.io/workspace/X3t9xNhvWbZmdHeXF5YQ/preview?elements=FbtfBIQRS26tWwA-gwonXw&type=embed" /></a>
+<img src="https://app.eraser.io/workspace/X3t9xNhvWbZmdHeXF5YQ/preview?elements=FbtfBIQRS26tWwA-gwonXw&type=embed" />
 
 1. **Scraping** <br> *Scrape business news topic from google news with python selenium.*
 2. **Cleaning** <br> *Clean scraped data with regular expression (regex) from unnecessary pattern, such as advertisement, multiple whitespace, etc.*
