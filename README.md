@@ -30,16 +30,16 @@
 
 ### Program Tasks
 
-1. **Scraping** <br> *Scrape business news topic from google news with python selenium.*
-2. **Cleaning** <br> *Clean scraped data with regular expression (regex) from unnecessary pattern, such as advertisement, multiple whitespace, etc.*
-3. **\*Translate to English** <br> *Translate summarized news to english.*
-4. **\*Summarization** <br> *Summarize news content into 3 sentences using Large Language Model (LLM).*
-5. **\*Translate to Bahasa Indonesia** <br> *Translate back news to Bahasa Indonesia.*
-6. **Sentiment Classification** <br> *Classify sentiment translated news using fine-tuned BERT.*
-7. **Topic Classification** <br> *Classify business sub-topics ("EKONOMI MAKRO", "INOVASI DAN TEKNOLOGI", "ISU DAN KONTROVERSI", "KINERJA KEUANGAN", "PENGHARGAAN DAN PENGAKUAN", "PROMOSI PRODUK", "REKOMENDASI INVESTASI", "LAINNYA").*
-8. **Named Entity Recognition** <br> *Extract existing subject from summarized news using Named Entity Recognition (NER).*
-9. **Mapping Customer Id** <br> *Map extracted subject with customer id to get customer id using fuzzy matching.*
-10. **Save Result** <br> *Save result to excel file.*
+1. **Scraping**: *Scrape business news topic from google news with python selenium.*
+2. **Cleaning**: *Clean scraped data with regular expression (regex) from unnecessary pattern, such as advertisement, multiple whitespace, etc.*
+3. **\*Translate to English**: *Translate summarized news to english.*
+4. **\*Summarization**: *Summarize news content into 3 sentences using Large Language Model (LLM).*
+5. **\*Translate to Bahasa Indonesia**: *Translate back news to Bahasa Indonesia.*
+6. **Sentiment Classification**: *Classify sentiment translated news using fine-tuned BERT.*
+7. **Topic Classification**: *Classify business sub-topics ("EKONOMI MAKRO", "INOVASI DAN TEKNOLOGI", "ISU DAN KONTROVERSI", "KINERJA KEUANGAN", "PENGHARGAAN DAN PENGAKUAN", "PROMOSI PRODUK", "REKOMENDASI INVESTASI", "LAINNYA").*
+8. **Named Entity Recognition**: *Extract existing subject from summarized news using Named Entity Recognition (NER).*
+9. **Mapping Customer Id**: *Map extracted subject with customer id to get customer id using fuzzy matching.*
+10. **Save Result**: *Save result to excel file.*
 
 *Note* <br>
 (*): Script needs to be self-hosted (Vercel) because provider-hosted api (openai and google translate) is not accessible in internal environment. 
