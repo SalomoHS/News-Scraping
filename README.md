@@ -10,14 +10,43 @@
   The need for business news data needed as additional information to analyze the financial condition of customers in the bank sector
 </p>
 
+<p align="center">
+I build code by starting from the business problem. My process begins with understanding the core challenge, then brainstorming the best tools and approaches to solve it effectively. Whether it's automation, data pipelines, or AI solutions, I focus on creating code that delivers real business value.
+</p>
+
+<p align="center">
+    <img alt="Python" title="Python" src="https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54"/>
+</p>
+
 ---
 
 ### Program Tasks
 
 1. **Scraping** <br> *Scrape business news topic from google news with python selenium.*
 2. **Cleaning** <br> *Clean scraped data with regular expression (regex) from unnecessary pattern, such as advertisement, multiple whitespace, etc.*
-3. **Summarization** <br> *Summarize news content into 3 sentences using Large Language Model (LLM).*
-4. **Sentiment Classification** <br> *Classify sentiment summaraized news.*
-5. **Named Entity Recognition** <br> *Extract existing subject from summarized news using Named Entity Recognition (NER).*
-6. **Mapping Customer Id** <br> *Map extracted subject with customer id to get customer id using fuzzy matching.*
-7. **Save Result** <br> *Save result to excel file.*
+3. **Summarization (*)** <br> *Summarize news content into 3 sentences using Large Language Model (LLM).*
+4. **Translate to English (*)** <br> *Translate summarized news to english.*
+5. **Sentiment Classification** <br> *Classify sentiment translated news using fine-tuned BERT.*
+6. **Translate to Bahasa Indonesia (*)** <br> *Translate back news to Bahasa Indonesia.*
+7. **Named Entity Recognition** <br> *Extract existing subject from summarized news using Named Entity Recognition (NER).*
+8. **Mapping Customer Id** <br> *Map extracted subject with customer id to get customer id using fuzzy matching.*
+9. **Save Result** <br> *Save result to excel file.*
+
+*Note*
+(*): Script needs to be self-hosted (Vercel) because provider-hosted api (openai and google translate) is not accessible in internal environment. 
+
+---
+
+### Libraries
+
+<img alt="Selenium" title="Selenium" src="https://img.shields.io/badge/Selenium-43B02A?logo=selenium&logoColor=fff"/>
+<img alt="Pandas" title="Pandas" src="https://img.shields.io/badge/Pandas-150458?logo=pandas&logoColor=fff"/>
+<img alt="FastApi" title="FastApi" src="https://img.shields.io/badge/FastAPI-009485.svg?logo=fastapi&logoColor=white"/>
+<img alt="HuggingFace" title="HuggingFace" src="https://img.shields.io/badge/Hugging%20Face-FFD21E?logo=huggingface&logoColor=000"/>
+
+### Cloud Hosting
+
+<img alt="Vercel" title="Vercel" src="https://img.shields.io/badge/Vercel-%23000000.svg?logo=vercel&logoColor=white"/>
+<img alt="Cloudflare" title="Cloudflare" src="https://img.shields.io/badge/Cloudflare-F38020?logo=Cloudflare&logoColor=white"/>
+
+
